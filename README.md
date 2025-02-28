@@ -4,7 +4,7 @@ Banco de dados desenvolvido para estudos do Nodejs com framework Fastify. Foi es
 
 Testes e2e (end-to-end) são testes que validam o comportamento da aplicação como um todo, simulando a interação do usuário com a aplicação. Eles são importantes para garantir que a aplicação esteja funcionando corretamente em todos os níveis, desde a camada de interface até a camada de banco de dados.
 Foi utilizado a ferramenta Vitest para criar e testar as rotas da aplicação com o teste automatizado e2e. Alguns métodos como: expect, test, beforeAll, afterAll, describe, beforeEach.
-A aplicação está em Typescript, portanto foi necessário adicionar um framework chamado Supertest para garantir a funcionalidade efetiva dos testes.
+A aplicação está em Typescript, portanto, foi necessário adicionar um framework chamado Supertest para garantir a funcionalidade efetiva dos testes.
 
 A aplicação em si tem o sentido do usuário criar uma nova transação, onde ele escolhe se é do tipo "crédito" ou "débito", onde o crédito é acrescentado e o outro é retirado do saldo total. Além das funcionalidades de visualizar e listar as transações.
 
